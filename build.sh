@@ -26,8 +26,7 @@ rpm-ostree install gh
 # rpm-ostree install vlc
 
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
-mkdir ~/.local/share/fonts
-unzip JetBrainsMono.zip -d ~/.local/share/fonts
+unzip JetBrainsMono.zip -d /usr/share/fonts
 
 
 #### Example for enabling a System Unit File
