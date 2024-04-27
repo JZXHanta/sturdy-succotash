@@ -14,9 +14,20 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 rpm-ostree install screen
+rpm-ostree install neovim
+rpm-ostree install python3-neovim
+rpm-ostree install nodejs
+rpm-ostree install golang
+rpm-ostree install rustup
+rpm-ostree install gh
+
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
+
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
+unzip JetBrainsMono.zip -d ~/.local/share/fonts
+
 
 #### Example for enabling a System Unit File
 
